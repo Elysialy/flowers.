@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+*{
+    margin: 0;
+} 
+body{
+    font-family:"Microsoft Yahei";
+}
+.box{
+    position:relative;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/title.png');
+    height:100%;
+    height:400px;
+}
+.box_flex{
+    display:flex;
+    width: 700px;
+    height:75px;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    left:27%
+}
+.box0{
+    background-color: blue;
+    height:50px;
+    width:80px
+}
+.box0~.box3{
+    background-color: red;
+    width:110px;
+}
+.background{
+    position:relative;
+    top:40px;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/2.png');
+    width:100%;
+    height:300px;
+}
+.welcome{
+    position:relative;
+    top:40px;
+    left:27%;
+    width:700px;
+    height: 300px;
+    display:flex;
+    flex-direction:row;
+}
+.paragraph
+{
+    position: absolute;
+    width:400px;
+    height:300px;
+    background-color: ;
+    left:310px;
+}
+
+.paragraph1{
+    width:300px;
+    height:300px;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/%E8%83%8C%E6%99%AF1.png')
+
+}
+.title
+{
+position:relative;
+width:150px;
+height:50px;
+top:20px;
+left:10px;
+font-size:12px
+}
+.video
+{
+position: absolute;
+left:90px;
+bottom:-50px;
+background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/1.png');
+width:300px;
+height:200px;
+}
+.bo{
+    position:relative;
+    top:50%;
+    left:30%
+}
+.variety
+{
+    position: relative;
+    width:700px;
+    height:150px;
+
+    top:150px;
+    left:27%;
+}
+.header
+{
+    position:relative;
+    width:200px;
+    height:75px;
+
+    top:20px;
+    left:250px
+}
+.lamy_flex
+{
+    position:relative;
+    width:100%;
+    height:200px;
+    top:75px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.bottle
+{
+    position:relative;
+    width:200px;
+    height:150px;
+
+    font-size: 13px;
+}
+.button
+{
+position:absolute;
+width:100px;
+height:45px;
+background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/%E4%BA%86%E8%A7%A3%E8%AF%A6%E6%83%85.png');
+bottom:-200px;
+left:300px;
+text-align: center;
+font-style: oblique;
+color:blue;
+}
+.di
+{
+    position:relative;
+    width:100%;
+    height:200px;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/2.png');
+    top:351px;
+}
+.pen1
+{
+    position:relative;
+    width:700px;
+    height:100px;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/pen1real.png');
+    left:27%
+}
+.pen2
+{
+    position:relative;
+    width:700px;
+    height:100px;
+    left:27%;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/202311261924292.png');
+}
+
+.tiao
+{
+position:relative;
+width:100%;
+height:170px;
+background-image: url('https://florenceshine.oss-cn-beijing.aliyuncs.com/hui.png');
+top:351px ;
+text-align: center;
+}
+.kuai
+{
+    position:relative;
+    width: 100%;
+    height:600px;
+
+    top:351px;
+}
+.kuai_flex1 
+{
+    position:relative;
+    width:700px;
+    height:200px;
+
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between  ;
+    left:27%;
+    bottom:-100px;
+    align-items:flex-start;
+}
+.photo1
+{
+    position:relative;
+    width:140px;
+    height:140px;
+}
+.photo1~.photoa
+{
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/%E5%B7%A61.png');
+}
+.photo1~.photoc
+{
+    background-image: url('https://florenceshine.oss-cn-beijing.aliyuncs.com/%E5%8F%B31.png');
+}
+.photo1~.photo2
+{
+    height:180px;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/%E4%B8%AD1.png');
+}
+.cha{
+position:relative;
+width:400px;
+height:100px;
+background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/2sying.png');
+top:-60px;
+left:520px;
+font-size: 15px;
+}
+.kuai_flex2
+{
+    position:relative;
+    width:700px;
+    height:200px;
+ 
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between  ;
+    left:27%;
+    bottom:-100px;
+    align-items:flex-end;
+}
+.photo3
+{
+    position:relative;
+    width:140px;
+    height:180px;
+}
+.photo3~.photo4
+{
+height:140px;
+background-image: url('https://florenceshine.oss-cn-beijing.aliyuncs.com/%E5%8F%B31.png');
+}
+.photo3~.photoa
+{
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/%E5%B7%A61.png');
+}
+.photo~.photoc
+{
+    background-image: url('https://florenceshine.oss-cn-beijing.aliyuncs.com/di.png');
+}
+.base
+{
+    width:100%;
+    height:800px;
+
+}
+.tiao1
+{
+position:relative;
+width:100%;
+height:150px;
+background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/..png');
+top:44%;
+}
+.tiao2
+{
+    position:relative;
+    width:100%;
+    height:150px;
+
+    top:44%
+}
+.toil
+{
+    position:relative;
+    width:100%;
+    height:500px;
+    background-image:url('https://florenceshine.oss-cn-beijing.aliyuncs.com/ccc.png');
+    top:153px;
+   
+}
+.base_flex
+{
+    position:relative;
+    width:400px;
+    height:200px;
+    background-color: blanchedalmond;
+    top:100px;
+    left:40%;
+    display:flex;
+    flex-direction: row;
+}
+.base_flex1
+{
+    position:relative;
+    width:170px;
+    height:200px;
+    background-color: rgb(0, 139, 53);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.picture
+{
+    position:relative;
+    width:150px;
+    height:150px;
+    background-color: azure;
+}
+.base_flex2
+{
+    position:relative;
+    width:230px;
+    height:200px;
+    background-color: rgb(139, 74, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.p
+{
+    position:relative;
+    width:150px;
+    height:150px;
+    background-color: rgb(0, 255, 68);
+}
+ </style>
+</head>
+<body>
+    <div class="box">
+
+    <div class="box_flex">
+       <div class="box0">新品推荐</div>
+        <div class="box0">在线购买产品</div>
+        <div class="box0 box3">
+            <img src="https://florenceshine.oss-cn-beijing.aliyuncs.com/%E8%89%BA%E6%9C%AF%E5%AD%97%E6%96%B0.png">
+        </div><!--第三个不一样-->
+        <div class="box0">企业礼包</div>
+        <div class="box0">品牌介绍</div>
+    </div>
+    </div>
+    <div class="background">
+    <div class="welcome">
+    <div class="paragraph">
+        <br> <br> <br> <br>
+        德国书写工具品牌LAMY始创人C•Josef Lamy于1930年在海德
+        堡创立了欧瑟斯墨水笔制造厂.1952年，崭露头角的LAMY 流线
+        型墨水笔，震撼问世, 彰显公司的创新敏锐触觉。1966年终于打
+        <br>
+        造出令人耳目一新的现代经典之作-LAMY 2000系列。产品撮合
+        了聚碳酸酯与不锈钢材质，绝妙的配搭，使之从芸芸众生的书写
+        工具中脱颖而出，时至今日，依然在市场具有影响力。 
+    </div>
+        <div class="img_welcome"> </div>
+        <div class="paragraph1"></div>
+        <div class="title"><h1>Wlcome to Lamy</h1></div>
+        <div class="video"> <img class="bo" src="https://florenceshine.oss-cn-beijing.aliyuncs.com/%E6%92%AD%E6%94%BE.png" ></div>
+    </div>
+    </div>
+    <div class="variety">
+        <div class="header">
+            <h2> Lamy各系列</h2>
+        </div>
+        <div class="lamy_flex">
+            <div class="bottle">
+                <h3>【恒星系列墨水笔】</h3>
+            <p>
+                LAMY 恒星系列延续了 LAMY 
+的时尚造型，打造出锦上添花的极致品质
+。此系列全部均由氧化
+独特的凹陷式笔握以及弹性铜线笔夹
+富的颜色让 LAMY 恒星系列突破了传统
+散发着无限的青春魅力。
+            </p>
+            </div>
+            <div class="bottle">
+                <h3>
+                    【狩猎系列限量色墨水笔 】
+                </h3>
+                <p>色彩丰富，颜色亮丽，不仅是可以作为书
+                    写工具，同样是很好的装饰品
+                    宽大的笔夹设计，可随时夹在包带、牛仔裤、
+                    T恤袖口上，让您感受创意方便的携带方式
+                    笔身通体材质采用车用强力ABS材料</p>
+            </div>
+            <div class="bottle">
+                <h3>
+                    【喜悦系列美术笔 】
+                </h3>
+                用以绘图、写艺术字、艺术签名
+扁平状的笔尖设计，适合书写艺术字
+立体感极佳.1、1.5、1.9三种笔尖可供选择
+，可书写粗细不等的立体字，让您随时
+感受变化的乐趣复古的笔杆设计
+，经典又与众不同，显示出独特的欣赏品味
+            </div>
+        </div>
+        <dev class="button"><p>了解详情</p></dev>
+    </div>
+    <div class="di">
+        <div class="little"></div>
+        <div class="pen1"></div>
+        <div class="pen2"></div>
+    </div>
+        <div class="tiao">
+            <h3>form lamy</h3>
+            <h2>what people are saying?</h2>
+        </div>
+        <div class="kuai">
+            <div class="cha">
+                <p>使用令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种
+                材质，也足以成就出这款永恒的设计。产品本身是体现不同加工程序和
+                制造工艺。手工打磨的亚光拉丝表面充分体现了品牌对细节的注重。</p>
+            </div>
+           <div class="kuai_flex1">
+                <div class="photo1 photoa" img src="https://florenceshine.oss-cn-beijing.aliyuncs.com/pen3.png"></div>
+                <div class="photo1 photo2"></div>
+                <div class="photo1 photob"></div>
+                </div>
+                <div class="kuai_flex2">
+                <div class="photo3 photoc"></div>
+                <div class="photo3 photo4"></div>
+                <div class="photo3 photod"></div>
+        </div>
+    </div>
+    <div class="base">
+        <div class="tiao1"></div>
+        <div class="tiao2"></div>
+        <div class="base_flex">
+        <div class="base_flex1">
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+        </div>
+        <div class="base_flex2">
+            <div class="p"></div>
+            <div class="p"></div>
+            <div class="p"></div>
+        </div>
+        </div>
+        <div class="toil"></div>
+        </div>
+       
+</body>
+</html>
